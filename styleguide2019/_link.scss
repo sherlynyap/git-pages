@@ -1,0 +1,613 @@
+/*************************************/
+/***** LINK *****/
+
+/* Text Links */
+%link-base {
+    @include transition($ease-all);
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-color: transparent;
+}
+
+%link-text {
+    font-weight: $semibold;
+    border-bottom-width: 1px;
+}
+
+a {
+    @extend %link-base;
+    @extend %link-text;
+    color: $smu-gold;
+    border-bottom-color: transparent;
+
+    &:hover {
+        @extend %link-base;
+        color: $smu-gold;
+        border-color: $smu-gold;
+    }
+
+    &:focus {
+        @extend %link-base;
+        color: $smu-gold-dark;
+        border-bottom-color: $smu-gold-dark;
+    }
+
+    &.gold {
+        color: $smu-gold;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-gold;
+            border-color: $smu-gold;
+        }
+
+        &:focus {
+            color: $smu-gold-dark;
+            border-bottom-color: $smu-gold-dark;
+        }
+    }
+
+    &.blue {
+        color: $smu-blue;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-blue;
+            border-color: $smu-blue;
+        }
+
+        &:focus {
+            color: $smu-blue-dark;
+            border-bottom-color: $smu-blue-dark;
+        }
+    }
+
+    &.silver {
+        color: $smu-silver;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-silver;
+            border-color: $smu-silver;
+        }
+
+        &:focus {
+            color: $smu-silver-dark;
+            border-bottom-color: $smu-silver-dark;
+        }
+    }
+
+    &.lkcsb {
+        color: $smu-lkcsb;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-lkcsb;
+            border-color: $smu-lkcsb;
+        }
+
+        &:focus {
+            color: $smu-lkcsb-dark;
+            border-bottom-color: $smu-lkcsb-dark;
+        }
+    }
+
+    &.sis {
+        color: $smu-sis;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-sis;
+            border-color: $smu-sis;
+        }
+
+        &:focus {
+            color: $smu-sis-dark;
+            border-bottom-color: $smu-sis-dark;
+        }
+    }
+
+    &.soa {
+        color: $smu-soa;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-soa;
+            border-color: $smu-soa;
+        }
+
+        &:focus {
+            color: $smu-soa-dark;
+            border-bottom-color: $smu-soa-dark;
+        }
+    }
+
+    &.soe {
+        color: $smu-soe;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-soe;
+            border-color: $smu-soe;
+        }
+
+        &:focus {
+            color: $smu-soe-dark;
+            border-bottom-color: $smu-soe-dark;
+        }
+
+    }
+
+    &.sol {
+        color: $smu-sol;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-sol;
+            border-color: $smu-sol;
+        }
+
+        &:focus {
+            color: $smu-sol-dark;
+            border-bottom-color: $smu-sol-dark;
+        }
+    }
+
+    &.soss {
+        color: $smu-soss;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $smu-soss;
+            border-color: $smu-soss;
+        }
+
+        &:focus {
+            color: $smu-soss-dark;
+            border-bottom-color: $smu-soss-dark;
+        }
+    }
+
+    &.success {
+        color: $alert-success;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $alert-success;
+            border-color: $alert-success;
+        }
+
+        &:focus {
+            color: $alert-success-dark;
+            border-bottom-color: $alert-success-dark;
+        }
+    }
+
+    &.info {
+        color: $alert-info;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $alert-info;
+            border-color: $alert-info;
+        }
+
+        &:focus {
+            color: $alert-info-dark;
+            border-bottom-color: $alert-info-dark;
+        }
+    }
+
+    &.warning {
+        color: $alert-warning;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $alert-warning;
+            border-color: $alert-warning;
+        }
+
+        &:focus {
+            color: $alert-warning-dark;
+            border-bottom-color: $alert-warning-dark;
+        }
+    }
+
+    &.danger {
+        color: $alert-danger;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $alert-danger;
+            border-color: $alert-danger;
+        }
+
+        &:focus {
+            color: $alert-danger-dark;
+            border-bottom-color: $alert-danger-dark;
+        }
+    }
+}
+
+
+/* Buttons */
+%link-cta {
+    @extend %link-base;
+    @include border-radius($radius);
+    @include box-shadow($shadow-far);
+    font-weight: 400;
+    font-family: $font-family-heading;
+    text-transform: uppercase;
+    text-align: center;
+    color: $white;
+    padding: $font-size-base/2 $font-size-base;
+    display: inline-block;
+    max-width: 280px;
+    border-width: 1px;
+    border-style: solid;
+    color: $white;
+}
+
+%link-cta-border {
+    background: transparent !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+%link-cta-hover {
+    border-color: $smu-silver-light !important;
+    background: $white !important;
+}
+
+%link-cta-focus {
+    @include box-shadow($shadow-none);
+    border-color: $white-light !important;
+    background: $white-light !important;
+}
+
+
+a.cta {
+    @extend %link-cta;
+
+    &,
+    &.gold {
+        background: $smu-gold;
+
+        &.border {
+            @extend %link-cta-border;
+            border-color: $smu-gold;
+            color: $smu-gold;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                @extend %link-cta-hover;
+                color: $smu-gold;
+            }
+
+            &:focus {
+                @extend %link-cta-focus;
+                color: $smu-gold;
+            }
+        }
+
+        &.border {
+            &.inverse {
+                background: transparent !important;
+                border-color: #FFF;
+                color: #FFF;
+
+                &:hover,
+                &:active {
+                    @extend %link-cta-hover;
+                    color: $smu-gold;
+                }
+
+                &:focus {
+                    @extend %link-cta-focus;
+                    color: $smu-gold;
+                }
+            }
+        }
+    }
+
+    &.blue {
+        background: $smu-blue;
+
+        &.border {
+            border-color: $smu-blue;
+            color: $smu-blue;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-blue;
+            }
+
+            &:focus {
+                color: $smu-blue;
+            }
+        }
+
+        &.border {
+            &.inverse {
+                background: transparent !important;
+                border-color: #FFF;
+                color: #FFF;
+
+                &:hover,
+                &:active {
+                    @extend %link-cta-hover;
+                    color: $smu-blue;
+                }
+
+                &:focus {
+                    @extend %link-cta-focus;
+                    color: $smu-blue;
+                }
+            }
+        }
+
+    }
+
+    &.lkcsb {
+        background: $smu-lkcsb;
+
+        &.border {
+            border-color: $smu-lkcsb;
+            color: $smu-lkcsb;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-lkcsb;
+            }
+
+            &:focus {
+                color: $smu-lkcsb;
+            }
+        }
+    }
+
+    &.sis {
+        background: $smu-sis;
+
+        &.border {
+            border-color: $smu-sis;
+            color: $smu-sis;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-sis;
+            }
+
+            &:focus {
+                color: $smu-sis;
+            }
+        }
+    }
+
+    &.soa {
+        background: $smu-soa;
+
+        &.border {
+            border-color: $smu-soa;
+            color: $smu-soa;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-soa;
+            }
+
+            &:focus {
+                color: $smu-soa;
+            }
+        }
+    }
+
+    &.soe {
+        background: $smu-soe;
+
+        &.border {
+            border-color: $smu-soe;
+            color: $smu-soe;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-soe;
+            }
+
+            &:focus {
+                color: $smu-soe;
+            }
+        }
+    }
+
+    &.sol {
+        background: $smu-sol;
+
+        &.border {
+            border-color: $smu-sol;
+            color: $smu-sol;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-sol;
+            }
+
+            &:focus {
+                color: $smu-sol;
+            }
+        }
+    }
+
+    &.soss {
+        background: $smu-soss;
+
+        &.border {
+            border-color: $smu-soss;
+            color: $smu-soss;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $smu-soss;
+            }
+
+            &:focus {
+                color: $smu-soss;
+            }
+        }
+    }
+
+
+
+    &.success {
+        background: $alert-success;
+
+        &.border {
+            border-color: $alert-success;
+            color: $alert-success;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $alert-success;
+            }
+
+            &:focus {
+                color: $alert-success;
+            }
+        }
+    }
+
+    &.info {
+        background: $alert-info;
+
+        &.border {
+            border-color: $alert-info;
+            color: $alert-info;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $alert-info;
+            }
+
+            &:focus {
+                color: $alert-info;
+            }
+        }
+    }
+
+    &.warning {
+        background: $alert-warning;
+
+        &.border {
+            border-color: $alert-warning;
+            color: $alert-warning;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $alert-warning;
+            }
+
+            &:focus {
+                color: $alert-warning;
+            }
+        }
+    }
+
+    &.danger {
+        background: $alert-danger;
+
+        &.border {
+            border-color: $alert-danger;
+            color: $alert-danger;
+        }
+
+        &,
+        &.border {
+
+            &:hover,
+            &:active {
+                color: $alert-danger;
+            }
+
+            &:focus {
+                color: $alert-danger;
+            }
+        }
+    }
+
+    &.disabled {
+        background: $black-lightest !important;
+        color: $black-lighter;
+        box-shadow: none !important;
+        cursor: not-allowed;
+
+        &.border {
+            border-color: $black-lightest;
+            color: $black-lighter;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: $black-lightest !important;
+            cursor: not-allowed;
+            box-shadow: none !important;
+            border-color: $black-lightest;
+        }
+    }
+
+    &.small {
+        font-size: $font-size-small;
+        padding: $font-size-small/2 $font-size-small;
+    }
+
+    &.large {
+        font-size: $font-size-large;
+        padding: $font-size-large/2 $font-size-large;
+    }
+}

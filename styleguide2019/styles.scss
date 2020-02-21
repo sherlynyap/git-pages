@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import '_base';
+@import '_mixin';
+@import '_color';
+@import '_component';
+@import '_font';
+@import '_form';
+@import '_link';
+@import '_vendor';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Fr testing purposes */
+.bg-test {
+    .row {
+        .bg {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 5px;
+            float: left;
+            text-align: center;
+            padding: 15px;
+        }
+
+        div:last-child::after {
+            clear: both;
+        }
+    }
+}
+
+.border-test {
+    .row {
+        .border {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 5px;
+            float: left;
+            text-align: center;
+            padding: 15px;
+            background: #F9F9F9;
+        }
+
+        div:last-child::after {
+            clear: both;
+        }
+
+    }
+}
+
+.row {
+    padding: $space-sm 0;
+}
+
+.buttons {
+	.row {
+		div {
+			padding: $space-sm;
+
+			&.bg.image {
+				background: url('https://lorempixel.com/output/city-q-c-480-240-1.jpg');
+			}
+		}
+	}
+}
+
+
+@import '_responsive';

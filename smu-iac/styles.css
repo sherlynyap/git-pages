@@ -1,0 +1,252 @@
+body {
+    background-color: #FFF;
+}
+
+a {
+    color: #8A704C;
+}
+
+a:hover,
+a:focus {
+    color: #A88A61;
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+}
+
+h4,
+h4 {
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+}
+
+h2.section-header,
+h3 {
+    font-size: 21px;
+    text-transform: uppercase !important;
+}
+
+section {
+    padding: 30px 0;
+    border-radius: 4px;
+}
+
+
+/* Temp Styles */
+.carousel-banner {
+  padding: 0;
+}
+
+.carousel-banner .img-container {
+  height: 640px;
+  overflow-y: hidden;
+}
+
+.carousel-banner .img-container img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Home - Members */
+.nav.nav-tabs {
+    margin-top: 30px;
+}
+
+.nav.nav-tabs li.active a {
+    background: #EEE;
+}
+
+.iac-members .btn-group {
+    width: 100%;
+}
+
+.iac-members .btn-group.open>.dropdown-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.iac-members .btn {
+    margin: 15px auto 0;
+    display: block;
+}
+
+.iac-member-content {
+    padding: 60px;
+    background: #EEE;
+    border: 1px solid #DDD;
+    border-top: 0;
+}
+
+.iac-member-content h3 {
+    margin-bottom: 15px;
+}
+
+.iac-member-content .panel {
+    background-color: #FFF;
+    height: 360px;
+}
+
+.iac-member-content .panel-heading {
+    padding: 0;
+}
+
+a.iac-profile,
+a.iac-profile:hover,
+a.iac-profile:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.iac-profile .panel,
+a.iac-profile:hover .panel,
+a.iac-profile:focus .panel {
+    transition: all ease 0.3s;
+}
+
+a.iac-profile .panel {
+    transform: translateY(0);
+}
+
+a.iac-profile:hover .panel {
+    transform: translateY(-3px);
+}
+
+
+
+span.profile-name,
+span.profile-designation,
+span.profile-organization {
+    display: block;
+}
+
+span.profile-name {
+    font-weight: bold;
+    color: #8A704C;
+}
+
+span.profile-designation {
+    font-size: 12px;
+}
+
+span.profile-smu {
+    font-style: italic;
+    font-size: 12px;
+}
+
+span.profile-smu:before {
+    content: "(";
+}
+
+span.profile-smu:after {
+    content: ")";
+}
+
+
+
+
+/* Home - News */
+.news-set {
+    padding: 0 0 30px 0;
+}
+
+p i.fa,
+p i.fas,
+p i.fab {
+    margin: 0 5px;
+}
+
+p.lead {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p.lead a {
+    color: #252525;
+}
+
+
+.description {
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #8b8b8b;
+}
+
+
+
+
+/* Home - Events */
+.event-set {}
+
+.event-set .panel {
+    background: #EEE;
+    height: 380px;
+    border-radius: 4px !important;
+}
+
+.event-set .panel-heading,
+.event-set .panel-body {
+    background: transparent;
+}
+
+.event-set .panel-heading {
+  padding: 0;
+}
+
+
+
+
+
+/* Home - Contact Us */
+section.iac-contact {
+    background: #EEE;
+}
+
+.iac-contact h4 {
+    font-weight: bold;
+    color: #151C55;
+}
+
+.contact-profile {
+  padding: 15px;
+  background: #EEE;
+  margin-bottom: 5px;
+}
+
+
+/* Responsive */
+@media (min-width: 1440px) {
+
+}
+
+@media (max-width: 1439px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .iac-member-content {
+    padding: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #DDD;
+  }
+}
+
+@media (max-width: 576px) {
+  
+}

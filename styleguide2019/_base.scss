@@ -1,0 +1,170 @@
+/***********************************************************************/
+/***** BASE *****/
+
+/* Brand */
+$smu-blue:          #151C55;
+$smu-gold:          #8A704C;
+$smu-silver:        #CCC;
+
+/* Neutral */
+$black:				#000;
+$black-light:       fade-out($black, 0.25);
+$black-lighter:     fade-out($black, 0.5);
+$black-lightest:    fade-out($black, 0.75);
+$white:       		#FFF;
+
+/* Accents */
+$smu-lkcsb:         #005C96;        
+$smu-sis:           #C69200;
+$smu-soa:           #9E0040;
+$smu-soe:           #006685;
+$smu-sol:           #330066;
+$smu-soss:          #006633;
+
+/* Alert */	
+$alert-danger:		#D93C36;	
+$alert-success:		#3EB33E;	
+$alert-info:		#3DABCC;	
+$alert-warning:		#E6A422;	
+$alert-disabled:	$black-lightest;	
+
+/* Tones */
+$smu-blue-lighter:    	fade-out($smu-blue, 0.8);
+$smu-gold-lighter:    	fade-out($smu-gold, 0.8);
+$smu-silver-lighter:  	fade-out($smu-silver, 0.75);
+$smu-lkcsb-lighter:  	fade-out($smu-lkcsb, 0.8);
+$smu-sis-lighter:     	fade-out($smu-sis, 0.8);
+$smu-soa-lighter:     	fade-out($smu-soa, 0.8);
+$smu-soe-lighter:     	fade-out($smu-soe, 0.8);
+$smu-sol-lighter:     	fade-out($smu-sol, 0.8);
+$smu-soss-lighter:    	fade-out($smu-soss, 0.8);
+$alert-danger-lighter:	fade-out($alert-danger, 0.8);
+$alert-success-lighter:	fade-out($alert-success, 0.8);
+$alert-info-lighter:	fade-out($alert-info, 0.8);
+$alert-warning-lighter:	fade-out($alert-warning, 0.8);
+$white-lighter:			fade-out($white, 0.8);
+
+$smu-blue-light:    	fade-out($smu-blue, 0.35);
+$smu-gold-light:    	fade-out($smu-gold, 0.35);
+$smu-silver-light:  	fade-out($smu-silver, 0.35);
+$smu-lkcsb-light:  		fade-out($smu-lkcsb, 0.35);
+$smu-sis-light:     	fade-out($smu-sis, 0.35);
+$smu-soa-light:     	fade-out($smu-soa, 0.35);
+$smu-soe-light:     	fade-out($smu-soe, 0.35);
+$smu-sol-light:     	fade-out($smu-sol, 0.35);
+$smu-soss-light:    	fade-out($smu-soss, 0.35);
+$alert-danger-light:	fade-out($alert-danger, 0.35);
+$alert-success-light:	fade-out($alert-success, 0.35);
+$alert-info-light:		fade-out($alert-info, 0.35);
+$alert-warning-light:	fade-out($alert-warning, 0.35);
+$white-light:			fade-out($white, 0.35);
+
+$smu-blue-dark:     	darken($smu-blue, 10%);
+$smu-gold-dark:     	darken($smu-gold, 10%);
+$smu-silver-dark:   	darken($smu-silver, 10%);
+$smu-lkcsb-dark:    	darken($smu-lkcsb, 10%);
+$smu-sis-dark:      	darken($smu-sis, 10%);
+$smu-soa-dark:      	darken($smu-soa, 10%);
+$smu-soe-dark:      	darken($smu-soe, 8%);
+$smu-sol-dark:      	darken($smu-sol, 8%);
+$smu-soss-dark:     	darken($smu-soss, 8%);
+$alert-danger-dark:		darken($alert-danger, 10%);
+$alert-success-dark:	darken($alert-success, 10%);
+$alert-info-dark:		darken($alert-info, 10%);
+$alert-warning-dark:	darken($alert-warning, 10%);
+
+$smu-blue-darker:   	darken($smu-blue, 20%);
+$smu-gold-darker:   	darken($smu-gold, 20%);
+$smu-silver-darker: 	darken($smu-silver, 20%);
+$smu-lkcsb-darker:  	darken($smu-lkcsb, 20%);
+$smu-sis-darker:    	darken($smu-sis, 20%);
+$smu-soa-darker:    	darken($smu-soa, 20%);
+$smu-soe-darker:    	darken($smu-soe, 15%);
+$smu-sol-darker:    	darken($smu-sol, 15%);
+$smu-soss-darker:   	darken($smu-soss, 15%);
+$alert-danger-darker:	darken($alert-danger, 20%);
+$alert-success-darker:	darken($alert-success, 20%);
+$alert-info-darker:		darken($alert-info, 20%);
+$alert-warning-darker:	darken($alert-warning, 20%);
+
+
+
+/***********************************************************************/
+/***** FONTS *****/
+
+/* Font Family */
+$font-family-heading:   'oswald', sans-serif;
+$font-family-body:    	'open sans', sans-serif;
+
+/* Base */
+$font-size-base: 	16px;
+$baseline:			24px;
+
+/* Headings */
+$font-size-h1: $font-size-base * 3; 						// 48px
+$font-size-h2: $font-size-base * 2.5; 						// 40px
+$font-size-h3: $font-size-base * 2; 						// 32px
+$font-size-h4: $font-size-base * 1.5; 						// 24px
+$font-size-h5: $font-size-base * 1.125;						// 18px
+$font-size-h6: $font-size-base * 0.75; 						// 14px
+
+/* Body */
+$font-size-large: ceil($font-size-base * 1.3); 					// ~22px
+$font-size-small: $font-size-base * 0.75; 					// ~12px
+
+/* Line Height */
+$line-height-base: 1.5; 
+
+/* Weights */
+$bold: 		700;
+$semibold: 	600;    												// For text links only!!!
+$regular: 	400;
+
+
+/* Others */
+$letter-spacing: 2px;
+
+
+/***********************************************************************/
+/***** SPACING *****/
+
+/* Base */
+$space-base: 15px;
+
+/* Steps */
+$space-xs: $space-base/3;											// 5px
+$space-sm: $space-base/3*2;											// 10px
+$space-md: $space-base;												// 15px
+$space-lg: $space-base*2;											// 30px
+$space-xl: $space-base*3;											// 45px
+
+
+/***********************************************************************/
+/***** UTILITIES *****/
+
+$border: 1px solid;
+
+/* Transition */
+$ease-all: all ease 0.3s;
+$ease-bg: background ease 0.3s;
+$ease-opacity: opacity ease 0.3s;
+$ease-border: opacity ease 0.3s;
+
+/* Border Radius */
+$radius: 2px;
+$radius-t: 2px 2px 0 0;
+$radius-b: 0 0 2px 2px;
+$radius-l: 0 0 0 2px;
+$radius-r: 0 0 2px 0;
+
+/* Shadows */
+$shadow-far: 2px 2px 16px rgba(0,0,0,0.20);
+$shadow-near: 2px 2px 4px rgba(0,0,0,0.35);
+$shadow-none: none;
+
+/* Filter */
+$brighter: brightness(115%);
+$darker: brightness(50%);
+
+/* User Select */
+$no-user-select: none;

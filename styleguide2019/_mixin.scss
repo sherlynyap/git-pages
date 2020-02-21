@@ -1,0 +1,163 @@
+/**********************************************************************/
+/***** MIXIN *****/
+
+@mixin transition($ease-all) {
+            transition: $ease-all;
+         -o-transition: $ease-all;
+        -ms-transition: $ease-all;  
+       -moz-transition: $ease-all;
+    -webkit-transition: $ease-all;
+}
+
+@mixin transition($ease-bg) {
+            transition: $ease-bg;
+         -o-transition: $ease-bg;
+        -ms-transition: $ease-bg;  
+       -moz-transition: $ease-bg;
+    -webkit-transition: $ease-bg;
+}
+
+@mixin transition($ease-opacity) {
+            transition: $ease-opacity;
+         -o-transition: $ease-opacity;
+        -ms-transition: $ease-opacity;  
+       -moz-transition: $ease-opacity;
+    -webkit-transition: $ease-opacity;
+}
+
+@mixin transition($ease-border) {
+            transition: $ease-border;
+         -o-transition: $ease-border;
+        -ms-transition: $ease-border;  
+       -moz-transition: $ease-border;
+    -webkit-transition: $ease-border;
+}
+
+@mixin border-radius($radius) {
+            border-radius: $radius;
+         -o-border-radius: $radius;
+        -ms-border-radius: $radius;
+       -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin border-radius-t($radius-t) {
+            border-radius: $radius;
+         -o-border-radius: $radius;
+        -ms-border-radius: $radius;
+       -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin border-radius-b($radius-b) {
+            border-radius: $radius;
+         -o-border-radius: $radius;
+        -ms-border-radius: $radius;
+       -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin border-radius-l($radius-l) {
+            border-radius: $radius;
+         -o-border-radius: $radius;
+        -ms-border-radius: $radius;
+       -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin border-radius-r($radius-r) {
+            border-radius: $radius;
+         -o-border-radius: $radius;
+        -ms-border-radius: $radius;
+       -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+
+@mixin box-shadow($shadow-far) {
+            box-shadow: $shadow-far;
+         -o-box-shadow: $shadow-far;
+        -ms-box-shadow: $shadow-far;
+       -moz-box-shadow: $shadow-far;
+    -webkit-box-shadow: $shadow-far;
+}
+@mixin box-shadow($shadow-near) {
+            box-shadow: $shadow-near;
+         -o-box-shadow: $shadow-near;
+        -ms-box-shadow: $shadow-near;
+       -moz-box-shadow: $shadow-near;
+    -webkit-box-shadow: $shadow-near;
+}
+
+@mixin box-shadow($shadow-none) {
+            box-shadow: $shadow-none;
+         -o-box-shadow: $shadow-none;
+        -ms-box-shadow: $shadow-none;
+       -moz-box-shadow: $shadow-none;
+    -webkit-box-shadow: $shadow-none;
+}
+
+@mixin text-shadow($shadow-far) {
+            box-shadow: $shadow-far;
+         -o-box-shadow: $shadow-far;
+        -ms-box-shadow: $shadow-far;
+       -moz-box-shadow: $shadow-far;
+    -webkit-box-shadow: $shadow-far; 
+}
+
+/* Transform */
+@mixin transform($slide-up: translateY(-3px)) {
+            transform: $slide-up;
+         -o-transform: $slide-up;
+        -ms-transform: $slide-up;       
+       -moz-transform: $slide-up;
+    -webkit-transform: $slide-up;
+}
+
+@mixin transform($slide-down: translateY(3px)) {
+            transform: $slide-down;
+         -o-transform: $slide-down;
+        -ms-transform: $slide-down;            
+       -moz-transform: $slide-down;
+    -webkit-transform: $slide-down;
+}
+
+@mixin transform($slide-left: translateX(-3px)) {
+            transform: $slide-left;
+         -o-transform: $slide-left;
+        -ms-transform: $slide-left;
+       -moz-transform: $slide-left;
+    -webkit-transform: $slide-left;
+}
+
+@mixin transform($slide-right: translateX(3px)) {
+            transform: $slide-right;
+         -o-transform: $slide-right;
+        -ms-transform: $slide-right;
+       -moz-transform: $slide-right;
+    -webkit-transform: $slide-right;
+}
+
+@mixin filter($brighter) {
+            filter: $brighter;
+         -o-filter: $brighter;
+        -ms-filter: $brighter;
+       -moz-filter: $brighter;
+    -webkit-filter: $brighter;
+}
+@mixin filter($darker) {
+            filter: $darker;
+         -o-filter: $darker;
+        -ms-filter: $darker;
+       -moz-filter: $darker;
+    -webkit-filter: $darker;
+}
+
+
+@mixin user-select($no-user-select) {
+            user-select: $no-user-select;
+         -o-user-select: $no-user-select;
+        -ms-user-select: $no-user-select;
+       -moz-user-select: $no-user-select;
+    -webkit-user-select: $no-user-select;
+}

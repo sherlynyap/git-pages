@@ -1,0 +1,46 @@
+/*************************************/
+/***** RESPONSIVE *****/
+
+/* LG Display */
+@media (min-width: 1200px) {}
+
+
+/* MD Display */
+@media (max-width: 1199px) {}
+
+
+/* SM Display */
+@media (max-width: 991px) {}
+
+
+/* XS-1 Display */
+@media (max-width: 767px) {
+
+    h1,
+    .h1 {
+        font-size: $font-size-h1 * 0.75;
+        line-height: $baseline * 3 * 0.75;
+    }
+
+    h2,
+    .h2 {
+        font-size: $font-size-h2 * 0.8;
+        line-height: $baseline * 2.5 * 0.8;
+    }
+
+    h3,
+    .h3 {
+        font-size: ceil($font-size-h3 * 0.8);
+        line-height: $baseline * 2 * 0.8;
+    }
+
+    h4,
+    .h4 {
+        font-size: $font-size-h4 * 0.75;
+        line-height: $baseline * 1.5 * 0.75;
+    }
+}
+
+
+/* XS-2 Display */
+@media (max-width: 576px) {}

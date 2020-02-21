@@ -1,0 +1,88 @@
+/*************************************/
+/***** FORM *****/
+%form-content {
+    display: block;
+    width: 100%;
+}
+
+%form-field {
+    padding-top: $space-xs;
+    padding-bottom: $space-xs;
+    margin-bottom: $space-lg;
+    border: 0;
+    border-bottom: $border;
+}
+
+%form-focus {
+    outline: none;
+    border-bottom: $border;
+    border-color: $smu-gold-light;
+    background-color: $smu-silver-lighter;
+}
+
+
+
+form {
+    margin: $space-md 0;
+}
+
+label {
+    @extend %form-content;
+    margin: 0 0 $space-xs;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    @extend %form-content;
+    @extend %form-field;
+    padding: $space-sm $space-md;
+
+    &:focus {
+        @extend %form-focus;
+    }
+}
+
+textarea {
+    min-height: 100px;
+}
+
+select {
+    @extend %form-content;
+    @extend %form-field;
+    padding: $space-sm $space-md;
+    height: 36px;
+
+    &:focus {
+        @extend %form-focus;
+    }
+
+    &[multiple] {
+    	height: auto;
+
+    	option {
+		    padding: $space-xs $space-md;
+    		margin: 0 -15px;
+    	}
+    }
+
+    &[disabled] {
+		color: $alert-disabled;
+	    cursor: not-allowed;
+    }
+}
+
+.radio,
+.checkbox {
+	@extend %form-field;
+	border-bottom: 0;
+
+	label[disabled] {
+    	
+    }
+}
+
+
+
+input[type=password],
+input[type=number] {}

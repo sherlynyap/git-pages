@@ -1,0 +1,211 @@
+/*************************************/
+/***** COMPONENT *****/
+
+/* Containers */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: $space-lg 0;
+}
+
+div {}
+
+section {
+    padding: $space-lg $space-md;
+}
+
+article {
+    padding: $space-lg 0;
+}
+
+figure {
+    display: block;
+    margin: $space-lg 0 $space-sm 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: calc(100% - 30px);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+
+i.fa,
+i,
+fas,
+i.fab {
+    margin: 0 0 0 5px;
+}
+
+
+/* Tables */
+table {
+    thead {
+        tr {
+            th {
+                @extend %font-base;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                @extend %font-base;
+            }
+        }
+    }
+
+    tfoot {
+        tr {
+            td {
+                @extend %font-base;
+            }
+        }
+    }
+
+    &.borderless {
+        border: 0;
+
+        thead, tbody, tr, td, th {
+            border: 0 !important;
+        }
+    }
+}
+
+
+/* Lists */
+ol,
+ul {
+    padding-left: $space-xl;
+
+    li {
+        padding: $space-sm 0;
+    }
+}
+
+ul {
+    li {
+        list-style-type: disc;
+    }
+}
+
+ol {
+    li {
+        list-style-type: decimal;
+    }
+}
+
+li {
+    @extend %font-base;
+}
+
+
+/* Media */
+img {
+    @include border-radius($radius);
+    @include transition($ease-all);
+    width: 100%;
+    height: auto;
+    border: 0;
+    display: block;
+    margin: $space-sm 0;
+    padding: 0;
+}
+
+iframe {
+    @include border-radius($radius);
+    width: 100%;
+}
+
+/* Borders */
+.border {
+
+    &.all {
+        border: $border;
+    }
+
+    &.top {
+        border-top: 1px solid;
+    }
+
+    &.bottom {
+        border-bottom: 1px solid;
+    }
+
+    &.left {
+        border-left: 1px solid;
+    }
+
+    &.right {
+        border-right: 1px solid;
+    }
+
+    &.thick {
+        border-width: 4px;
+
+        &.top {
+            border-top: 4px solid;
+        }
+
+        &.bottom {
+            border-bottom: 4px solid;
+        }
+
+        &.left {
+            border-left: 4px solid;
+        }
+
+        &.right {
+            border-right: 4px solid;
+        }
+    }
+
+    &.thicker {
+        border-width: 8px;
+
+        &.top {
+            border-top: 8px solid;
+        }
+
+        &.bottom {
+            border-bottom: 8px solid;
+        }
+
+        &.left {
+            border-left: 8px solid;
+        }
+
+        &.right {
+            border-right: 8px solid;
+        }
+    }
+
+    &.dotted {
+        border-style: dotted;
+    }
+
+    &.dashed {
+        border-style: dashed;
+    }
+
+    &.double {
+        border-style: double;
+    }
+}
+
+hr {
+    border-color: $black-lightest;
+    margin: $space-md 0;
+}

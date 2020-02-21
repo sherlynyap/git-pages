@@ -1,0 +1,653 @@
+/*************************************/
+/***** COLOR *****/
+
+/* Text */
+.blue {
+    color: $smu-blue;
+}
+
+.gold {
+    color: $smu-gold;
+}
+
+.silver {
+    color: $smu-silver;
+}
+
+.black {
+    color: $black;
+}
+
+.white {
+    color: $white;
+}
+
+.lkcsb {
+    color: $smu-lkcsb;
+}
+
+.sis {
+    color: $smu-sis;
+}
+
+.soa {
+    color: $smu-soa;
+}
+
+.soe {
+    color: $smu-soe;
+}
+
+.sol {
+    color: $smu-sol;
+}
+
+.soss {
+    color: $smu-soss;
+}
+
+/* Backgrounds */
+.bg {
+    color: $white; 
+
+    &.blue {
+        background: $smu-blue;
+    }
+
+    &.gold {
+        background: $smu-gold;
+    }
+
+    &.silver {
+        background: $smu-silver;
+    }
+
+    &.black {
+        background: $black;
+    }
+
+    &.white {
+        background: $white;
+        color: $black;
+    }
+
+    &.lkcsb {
+        background: $smu-lkcsb;
+    }
+
+    &.sis {
+        background: $smu-sis;
+        color: $black;
+    }
+
+    &.soa {
+        background: $smu-soa;
+    }
+
+    &.soe {
+        background: $smu-soe;
+    }
+
+    &.sol {
+        background: $smu-sol;
+    }
+
+    &.soss {
+        background: $smu-soss;
+    }
+
+    &.success {
+        background: $alert-success;
+    }
+
+    &.info {
+        background: $alert-info;
+    }
+
+    &.warning {
+        background: $alert-warning;
+    }
+
+    &.danger {
+        background: $alert-danger;
+    }
+
+    &.darker {
+        color: $white;
+
+        &.blue {
+            background: $smu-blue-darker;
+        }
+
+        &.gold {
+            background: $smu-gold-darker;
+        }
+
+        &.silver {
+            background: $smu-silver-darker;
+        }
+
+        &.lkcsb {
+            background: $smu-lkcsb-darker;
+        }
+
+        &.sis {
+            background: $smu-sis-darker;
+        }
+
+        &.soa {
+            background: $smu-soa-darker;
+        }
+
+        &.soe {
+            background: $smu-soe-darker;
+        }
+
+        &.sol {
+            background: $smu-sol-darker;
+        }
+
+        &.soss {
+            background: $smu-soss-darker;
+        }
+
+        &.black {
+            background: $black;
+        }
+
+        &.success {
+            background: $alert-success-darker;
+        }
+
+        &.info {
+            background: $alert-info-darker;
+        }
+
+        &.warning {
+            background: $alert-warning-darker;
+        }
+
+        &.danger {
+            background: $alert-danger-darker;
+        }
+    }
+
+    &.dark {
+        color: $white;
+
+        &.blue {
+            background: $smu-blue-dark;
+        }
+
+        &.gold {
+            background: $smu-gold-dark;
+        }
+
+        &.silver {
+            background: $smu-silver-dark;
+        }
+
+        &.lkcsb {
+            background: $smu-lkcsb-dark;
+        }
+
+        &.sis {
+            background: $smu-sis-dark;
+        }
+
+        &.soa {
+            background: $smu-soa-dark;
+        }
+
+        &.soe {
+            background: $smu-soe-dark;
+        }
+
+        &.sol {
+            background: $smu-sol-dark;
+        }
+
+        &.soss {
+            background: $smu-soss-dark;
+        }
+
+        &.black {
+            background: $black-light;
+        }
+
+        &.success {
+            background: $alert-success-dark;
+        }
+
+        &.info {
+            background: $alert-info-dark;
+        }
+
+        &.warning {
+            background: $alert-warning-dark;
+        }
+
+        &.danger {
+            background: $alert-danger-dark;
+        }
+    }
+
+
+    &.light {
+        color: $black;
+
+        &.blue {
+            background: $smu-blue-light;
+        }
+
+        &.gold {
+            background: $smu-gold-light;
+        }
+
+        &.silver {
+            background: $smu-silver-light;
+        }
+
+        &.lkcsb {
+            background: $smu-lkcsb-light;
+        }
+
+        &.sis {
+            background: $smu-sis-light;
+        }
+
+        &.soa {
+            background: $smu-soa-light;
+        }
+
+        &.soe {
+            background: $smu-soe-light;
+        }
+
+        &.sol {
+            background: $smu-sol-light;
+        }
+
+        &.soss {
+            background: $smu-soss-light;
+        }
+
+        &.black {
+            background: $black-lighter;
+        }
+
+        &.success {
+            background: $alert-success-light;
+        }
+
+        &.info {
+            background: $alert-info-light;
+        }
+
+        &.warning {
+            background: $alert-warning-light;
+        }
+
+        &.danger {
+            background: $alert-danger-light;
+        }
+    }
+
+    &.lighter {
+        color: $black;
+
+        &.blue {
+            background: $smu-blue-lighter;
+        }
+
+        &.gold {
+            background: $smu-gold-lighter;
+        }
+
+        &.silver {
+            background: $smu-silver-lighter;
+        }
+
+        &.lkcsb {
+            background: $smu-lkcsb-lighter;
+        }
+
+        &.sis {
+            background: $smu-sis-lighter;
+        }
+
+        &.soa {
+            background: $smu-soa-lighter;
+        }
+
+        &.soe {
+            background: $smu-soe-lighter;
+        }
+
+        &.sol {
+            background: $smu-sol-lighter;
+        }
+
+        &.soss {
+            background: $smu-soss-lighter;
+        }
+
+        &.black {
+            background: $black-lightest;
+        }
+
+        &.success {
+            background: $alert-success-lighter;
+        }
+
+        &.info {
+            background: $alert-info-lighter;
+        }
+
+        &.warning {
+            background: $alert-warning-lighter;
+        }
+
+        &.danger {
+            background: $alert-danger-lighter;
+        }
+    }
+}
+
+/* Borders */
+.border {
+    
+    &.blue {
+        border-color: $smu-blue;
+    }
+
+    &.gold {
+        border-color: $smu-gold;
+    }
+
+    &.silver {
+        border-color: $smu-silver;
+    }
+
+    &.black {
+        border-color: $black;
+    }
+
+    &.white {
+        border-color: $white;
+    }
+
+    &.lkcsb {
+        border-color: $smu-lkcsb;
+    }
+
+    &.sis {
+        border-color: $smu-sis;
+    }
+
+    &.soa {
+        border-color: $smu-soa;
+    }
+
+    &.soe {
+        border-color: $smu-soe;
+    }
+
+    &.sol {
+        border-color: $smu-sol;
+    }
+
+    &.soss {
+        border-color: $smu-soss;
+    }
+
+    &.success {
+        background: $alert-success;
+    }
+
+    &.info {
+        background: $alert-info;
+    }
+
+    &.warning {
+        background: $alert-warning;
+    }
+
+    &.danger {
+        background: $alert-danger;
+    }
+
+    &.darker {
+        &.blue {
+            border-color: $smu-blue-darker;
+        }
+
+        &.gold {
+            border-color: $smu-gold-darker;
+        }
+
+        &.silver {
+            border-color: $smu-silver-darker;
+        }
+
+        &.lkcsb {
+            border-color: $smu-lkcsb-darker;
+        }
+
+        &.sis {
+            border-color: $smu-sis-darker;
+        }
+
+        &.soa {
+            border-color: $smu-soa-darker;
+        }
+
+        &.soe {
+            border-color: $smu-soe-darker;
+        }
+
+        &.sol {
+            border-color: $smu-sol-darker;
+        }
+
+        &.soss {
+            border-color: $smu-soss-darker;
+        }
+
+        &.black {
+            border-color: $black;
+        }
+
+        &.success {
+            background: $alert-success-darker;
+        }
+
+        &.info {
+            background: $alert-info-darker;
+        }
+
+        &.warning {
+            background: $alert-warning-darker;
+        }
+
+        &.danger {
+            background: $alert-danger-darker;
+        }
+    }
+
+    &.dark {
+        &.blue {
+            border-color: $smu-blue-dark;
+        }
+
+        &.gold {
+            border-color: $smu-gold-dark;
+        }
+
+        &.silver {
+            border-color: $smu-silver-dark;
+        }
+
+        &.lkcsb {
+            border-color: $smu-lkcsb-dark;
+        }
+
+        &.sis {
+            border-color: $smu-sis-dark;
+        }
+
+        &.soa {
+            border-color: $smu-soa-dark;
+        }
+
+        &.soe {
+            border-color: $smu-soe-dark;
+        }
+
+        &.sol {
+            border-color: $smu-sol-dark;
+        }
+
+        &.soss {
+            border-color: $smu-soss-dark;
+        }
+
+        &.black {
+            border-color: $black-light;
+        }
+
+        &.success {
+            background: $alert-success-dark;
+        }
+
+        &.info {
+            background: $alert-info-dark;
+        }
+
+        &.warning {
+            background: $alert-warning-dark;
+        }
+
+        &.danger {
+            background: $alert-danger-dark;
+        }
+    }
+
+
+    &.light {
+        &.blue {
+            border-color: $smu-blue-light;
+        }
+
+        &.gold {
+            border-color: $smu-gold-light;
+        }
+
+        &.silver {
+            border-color: $smu-silver-light;
+        }
+
+        &.lkcsb {
+            border-color: $smu-lkcsb-light;
+        }
+
+        &.sis {
+            border-color: $smu-sis-light;
+        }
+
+        &.soa {
+            border-color: $smu-soa-light;
+        }
+
+        &.soe {
+            border-color: $smu-soe-light;
+        }
+
+        &.sol {
+            border-color: $smu-sol-light;
+        }
+
+        &.soss {
+            border-color: $smu-soss-light;
+        }
+
+        &.black {
+            border-color: $black-lighter;
+        }
+
+        &.success {
+            background: $alert-success-light;
+        }
+
+        &.info {
+            background: $alert-info-light;
+        }
+
+        &.warning {
+            background: $alert-warning-light;
+        }
+
+        &.danger {
+            background: $alert-danger-light;
+        }
+    }
+
+    &.lighter {
+        &.blue {
+            border-color: $smu-blue-lighter;
+        }
+
+        &.gold {
+            border-color: $smu-gold-lighter;
+        }
+
+        &.silver {
+            border-color: $smu-silver-lighter;
+        }
+
+        &.lkcsb {
+            border-color: $smu-lkcsb-lighter;
+        }
+
+        &.sis {
+            border-color: $smu-sis-lighter;
+        }
+
+        &.soa {
+            border-color: $smu-soa-lighter;
+        }
+
+        &.soe {
+            border-color: $smu-soe-lighter;
+        }
+
+        &.sol {
+            border-color: $smu-sol-lighter;
+        }
+
+        &.soss {
+            border-color: $smu-soss-lighter;
+        }
+
+        &.black {
+            border-color: $black-lightest;
+        }
+
+        &.success {
+            background: $alert-success-lighter;
+        }
+
+        &.info {
+            background: $alert-info-lighter;
+        }
+
+        &.warning {
+            background: $alert-warning-lighter;
+        }
+
+        &.danger {
+            background: $alert-danger-lighter;
+        }
+    }
+
+}
