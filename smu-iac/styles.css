@@ -1,5 +1,6 @@
 body {
     background-color: #FFF;
+    min-width: 320px;
 }
 
 a {
@@ -41,13 +42,14 @@ section {
 
 
 /* Temp Styles */
-.carousel-banner {
+.carousel-banner,
+.inner-page-banner {
     padding: 0;
+    overflow: hidden;
 }
 
 .carousel-banner .img-container {
-    height: 640px;
-    overflow-y: hidden;
+    height: 360px;
 }
 
 .carousel-banner .img-container img {
@@ -56,6 +58,55 @@ section {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.inner-page-banner,
+.inner-page-banner .bg-image {
+    height: 140px;
+}
+
+.inner-page-banner .bg-image {
+    background: #151C55 no-repeat right 50%;
+    background-size: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.inner-page-banner .bg-overlay {
+    background: linear-gradient(90deg, rgba(21, 28, 85, 1.0) 50%, rgba(21, 28, 85, 0) 75%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner-content .breadcrumb {
+    background: transparent;
+    font: 12px/16px "Open sans", sans-serif;
+    color: #FFF;
+    display: block;
+    margin: 30px 0 10px 0;
+    padding: 0;
+}
+
+.banner-content h1 {
+    color: #FFF;
+}
+
+.banner-content .breadcrumb a {
+    color: #FFF;
+}
+
+
 
 /* Home - Members */
 .nav.nav-tabs {
@@ -93,10 +144,10 @@ section {
 
 .iac-member-content .panel {
     background-color: #FFF;
-    height: 360px;
+    height: 380px;
 }
 
-.iac-member-content .panel-heading {
+.iac-profile .panel-heading {
     padding: 0;
 }
 
@@ -120,8 +171,6 @@ a.iac-profile .panel {
 a.iac-profile:hover .panel {
     transform: translateY(-3px);
 }
-
-
 
 span.profile-name,
 span.profile-designation,
@@ -227,10 +276,65 @@ section.iac-contact {
 }
 
 
+
+/* INNER PAGES */
+.iac-members,
+.iac-event-details {
+    padding: 30px 0;
+}
+
+
+/* IAC MEMBERS PROFILES */
+.anchor {
+    position: relative;
+}
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -20px;
+}
+
+.iac-region {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.iac-region ul {
+    list-style: none;
+    padding: 0;
+}
+
+.iac-region ul li {
+    display: inline-block;
+}
+
+.iac-region ul li:after {
+    content: "|";
+    color: #DDD;
+}
+
+.iac-region ul li a {
+    padding: 0 15px;
+}
+
+.iac-region ul li:first-child a {
+    padding-left: 0;
+}
+
+.iac-region ul li.last-leaf:after {
+    content: "";
+}
+
+h2.event-name {
+    margin: 15px 0;
+}
+
 /* Responsive */
 @media (min-width: 1440px) {}
 
-@media (max-width: 1439px) {
+@media (max-width: 1439px) {}
+
+@media (max-width: 991px) {
     .carousel-banner .img-container {
         height: 640px;
         overflow-x: hidden;
@@ -239,16 +343,34 @@ section.iac-contact {
     .carousel-banner .img-container img {
         height: 100% !important;
         width: auto;
+        top: 0;
+        transform: translateY(0);
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+
+    .iac-member-content .panel {
+        height: 480px;
     }
 }
-
-@media (max-width: 991px) {}
 
 @media (max-width: 767px) {
     .iac-member-content {
         padding: 15px;
         margin-top: 15px;
         border-top: 1px solid #DDD;
+    }
+
+    .iac-member-content .panel {
+        height: auto;
+    }
+
+    .panel-heading img {
+        width: 100% !important;
+    }
+
+    .iac-news {
+        margin-top: 15px;
     }
 }
 
