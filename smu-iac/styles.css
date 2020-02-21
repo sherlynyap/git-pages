@@ -42,18 +42,19 @@ section {
 
 /* Temp Styles */
 .carousel-banner {
-  padding: 0;
+    padding: 0;
 }
 
 .carousel-banner .img-container {
-  height: 640px;
-  overflow-y: hidden;
+    height: 640px;
+    overflow-y: hidden;
 }
 
 .carousel-banner .img-container img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Home - Members */
@@ -202,7 +203,7 @@ p.lead a {
 }
 
 .event-set .panel-heading {
-  padding: 0;
+    padding: 0;
 }
 
 
@@ -220,33 +221,35 @@ section.iac-contact {
 }
 
 .contact-profile {
-  padding: 15px;
-  background: #EEE;
-  margin-bottom: 5px;
+    padding: 15px;
+    background: #EEE;
+    margin-bottom: 5px;
 }
 
 
 /* Responsive */
-@media (min-width: 1440px) {
-
-}
+@media (min-width: 1440px) {}
 
 @media (max-width: 1439px) {
+    .carousel-banner .img-container {
+        height: 640px;
+        overflow-x: hidden;
+    }
 
+    .carousel-banner .img-container img {
+        height: 100% !important;
+        width: auto;
+    }
 }
 
-@media (max-width: 991px) {
-
-}
+@media (max-width: 991px) {}
 
 @media (max-width: 767px) {
-  .iac-member-content {
-    padding: 15px;
-    margin-top: 15px;
-    border-top: 1px solid #DDD;
-  }
+    .iac-member-content {
+        padding: 15px;
+        margin-top: 15px;
+        border-top: 1px solid #DDD;
+    }
 }
 
-@media (max-width: 576px) {
-  
-}
+@media (max-width: 576px) {}
