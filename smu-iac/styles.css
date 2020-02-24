@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #FFF;
     min-width: 320px;
@@ -10,6 +14,35 @@ a {
 a:hover,
 a:focus {
     color: #A88A61;
+}
+
+.cta.cta-gold.accordion {
+    width: 100%;
+    position: relative;
+}
+
+.cta.cta-gold.accordion.collapsed::after,
+.cta.cta-gold.accordion::after {
+    content: "+";
+    position: absolute;
+    right: 5%;
+    font-size: 24px;
+}
+
+.cta.cta-gold.accordion.collapsed::before {
+    content: "See ";
+}
+
+.cta.cta-gold.accordion::before {
+    content: "Hide ";
+}
+
+.cta.cta-gold.accordion.collapsed::after {
+    content: "+";
+}
+
+.cta.cta-gold.accordion::after {
+    content: "-";
 }
 
 h1,
@@ -61,7 +94,7 @@ section {
 
 .inner-page-banner,
 .inner-page-banner .bg-image {
-    height: 140px;
+    height: 160px;
 }
 
 .inner-page-banner .bg-image {
@@ -240,22 +273,39 @@ p.lead a {
 /* Home - Events */
 .event-set {}
 
-.event-set .panel {
+.inner-page-content .event-set,
+.inner-page-content .news-set {
+    padding: 0 15px 15px; 
+}
+
+.sidebar .event-set,
+.sidebar .news-set {
+    padding: 0 15px; 
+}
+
+.event-set .panel,
+.inner-page-content .news-set .panel {
     background: #EEE;
     height: 380px;
     border-radius: 4px !important;
 }
 
+.inner-page-content .event-set .panel,
+.inner-page-content .news-set .panel {
+    height: auto;
+}
+
 .event-set .panel-heading,
-.event-set .panel-body {
+.event-set .panel-body,
+.inner-page-content .news-set .panel-heading,
+.inner-page-content .news-set .panel-body {
     background: transparent;
 }
 
-.event-set .panel-heading {
+.event-set .panel-heading,
+.inner-page-content .news-set .panel-heading {
     padding: 0;
 }
-
-
 
 
 
@@ -278,8 +328,7 @@ section.iac-contact {
 
 
 /* INNER PAGES */
-.iac-members,
-.iac-event-details {
+.inner-page-content {
     padding: 30px 0;
 }
 
@@ -424,6 +473,13 @@ h2.event-name {
 }
 
 
+
+/* NEWS LISTING */
+.inner-page-content {
+    padding-top: 30px;
+}
+
+
 /* Responsive */
 @media (min-width: 1440px) {}
 
@@ -450,6 +506,10 @@ h2.event-name {
 }
 
 @media (max-width: 767px) {
+
+    .banner-content {
+        padding: 0 15px;
+    }
     .iac-member-content {
         padding: 15px;
         margin-top: 15px;
