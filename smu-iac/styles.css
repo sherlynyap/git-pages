@@ -329,6 +329,101 @@ h2.event-name {
     margin: 15px 0;
 }
 
+
+
+/* EVENT DETAILS */
+.event-details {}
+
+.event-details .location,
+.event-details .date,
+.event-details .time {
+    display: block;
+    font-weight: bold;
+}
+
+.event-details .location::before,
+.event-details .date::before,
+.event-details .time::before {
+    color: #666;
+    font-weight: normal;
+    width: 80px;
+    display: inline-block;
+}
+
+
+.event-details .location::before {
+    content: "Location: ";
+}
+.event-details .date::before {
+    content: "Date: ";
+}
+.event-details .time::before {
+    content: "Time: ";
+}
+
+.prog-table {
+    margin-bottom: 30px;
+}
+
+.prog-table .row > div[class*="col-"] {
+    padding: 0;
+}
+
+.prog-table .row:nth-child(odd) {
+    background-color: #FFF;
+}
+.prog-table .row:nth-child(even) {
+    background-color: #EEE;
+}
+
+.prog-table .title {
+    background-color: hsla(233, 35%, 75%, 1) !important;
+    font-weight: bold;
+}
+
+.prog-table .prog-time,
+.prog-table .prog-content {
+    padding: 10px 15px;
+}
+
+.prog-table .time,
+.prog-table .topic {
+    font-weight: bold;
+}
+
+.prog-table .topic,
+.prog-table .speaker,
+.prog-table .speaker .name,
+.prog-table .speaker .designation,
+.speaker-profile .name,
+.speaker-profile  .designation {
+    display: block;
+}
+
+.prog-table .speaker {
+    margin-top: 10px;
+}
+
+.prog-table .speaker a,
+.speaker-profile .name {
+    font-weight: bold;
+}
+
+.speaker-profile .designation {
+    margin-bottom: 15px;
+}
+
+.anchor {
+    position: relative;
+}
+
+.anchor > a {
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+
+
 /* Responsive */
 @media (min-width: 1440px) {}
 
