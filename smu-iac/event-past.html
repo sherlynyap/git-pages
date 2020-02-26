@@ -20,9 +20,12 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
-                                <span class="breadcrumb">
-                                    <a href="index.html">IAC Home</a>
-                                </span>
+                                <ul class="breadcrumb">
+                                    <li><a href="https://smu.edu.sg">Home</a></li>
+                                    <li><a href="https://smu.edu.sg/about">About</a></li>
+                                    <li><a href="index.html">International Advisory Council</a></li>
+                                    <li><a href="event-listing.html">IAC Events</a></li>
+                                </ul>
                                 <h1>Past Event</h1>
                             </div>
                         </div>
@@ -48,37 +51,37 @@
                         <hr>
                     </div>
                     <h3>Post-Event Gallery</h3>
-                    <div class="row">
+                    <div class="row gallery">
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="thumbnail">
+                            <div class="photo">
                                 <a class="group3" href="images/bg-about.png" title="photo-name">
                                     <img class="img-responsive" src="https://placehold.it/800x400">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="thumbnail">
+                            <div class="photo">
                                 <a class="group3" href="images/bg-about.png" title="photo-name">
                                     <img class="img-responsive" src="https://placehold.it/800x400">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="thumbnail">
+                            <div class="photo">
                                 <a class="group3" href="images/bg-about.png" title="photo-name">
                                     <img class="img-responsive" src="https://placehold.it/800x400">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="thumbnail">
+                            <div class="photo">
                                 <a class="group3" href="images/bg-about.png" title="photo-name">
                                     <img class="img-responsive" src="https://placehold.it/800x400">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="thumbnail">
+                            <div class="photo">
                                 <a class="group3" href="images/bg-about.png" title="photo-name">
                                     <img class="img-responsive" src="https://placehold.it/800x400">
                                 </a>
@@ -313,22 +316,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12 sidebar iac-events">
+                <div class="col-md-3 col-xs-12 side-bar iac-events">
                     <h3>Upcoming Events</h3>
                     <div class="header-grey-line"></div>
                     <div class="row">
                         <div class="col-xs-12 event-set">
                             <div class="panel">
                                 <div class="panel-heading">
-                                    <a href="#">
-                                        <img class="img-responsive" src="https://placehold.it/800x450" alt="event-name">
+                                    <a href="event.html">
+                                        <img class="img-responsive" src="https://placehold.it/800x400" alt="event-name">
                                     </a>
                                 </div>
                                 <div class="panel-body">
                                     <div class="description">
                                         <span class="news-country">Ho Chi Minh</span>, <span class="news-date">17 April 2019</span>
                                     </div>
-                                    <h4><a href="#">SMU-AYALA Industry Dialogue: Embracing Philippines' Digital Economy</a></h4>
+                                    <h4><a href="event.html">SMU-AYALA Industry Dialogue: Embracing Philippines' Digital Economy</a></h4>
                                     <p>Aliqua excepteur non fugiat consectetur do in esse culpa labore incididunt cupidatat in dolor anim et.</p>
                                 </div>
                             </div>
@@ -336,15 +339,15 @@
                         <div class="col-xs-12 event-set">
                             <div class="panel">
                                 <div class="panel-heading">
-                                    <a href="#">
-                                        <img class="img-responsive" src="https://placehold.it/800x450" alt="event-name">
+                                    <a href="event.html">
+                                        <img class="img-responsive" src="https://placehold.it/800x400" alt="event-name">
                                     </a>
                                 </div>
                                 <div class="panel-body">
                                     <div class="description">
                                         <span class="news-country">Ho Chi Minh</span>, <span class="news-date">17 April 2019</span>
                                     </div>
-                                    <h4><a href="#">SMU-AYALA Industry Dialogue: Embracing Philippines' Digital Economy</a></h4>
+                                    <h4><a href="event.html">SMU-AYALA Industry Dialogue: Embracing Philippines' Digital Economy</a></h4>
                                     <p>Aliqua excepteur non fugiat consectetur do in esse culpa labore incididunt cupidatat in dolor anim et.</p>
                                 </div>
                             </div>
@@ -360,12 +363,6 @@
     <script>
     $(document).ready(function() {
         $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-
-        //Example of preserving a JavaScript event for inline calls.
-        $("#click").click(function() {
-            $('#click').css({ "background-color": "#f00", "color": "#fff", "cursor": "inherit" }).text("Open this window again and this message will still be here.");
-            return false;
-        });
     });
     </script>
 </body>
