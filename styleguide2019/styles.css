@@ -67,7 +67,7 @@
 
 /* Backgrounds */
 .bg {
-  color: #FFF; }
+  /*color: $white; */ }
   .bg.blue {
     background: #151C55; }
   .bg.gold {
