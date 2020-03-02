@@ -297,8 +297,9 @@ div.section .iac-members {}
     margin-bottom: 15px; 
 }
     .iac-events-news .carousel-inner .item {
-        height: 380px;
+        height: 440px;
         background: #EEE;
+        overflow-y: hidden;
     }
 
 .iac-events-news .carousel-control {
@@ -548,7 +549,12 @@ div#cboxOverlay {
 /* Responsive */
 @media (min-width: 1440px) {}
 
-@media (max-width: 1439px) {}
+@media (max-width: 1439px) {
+    .iac-events-news .carousel-inner .item {
+        height: auto;
+        min-height: 430px;
+    }
+}
 
 @media (max-width: 991px) {
     .carousel-banner .img-container {
@@ -567,6 +573,15 @@ div#cboxOverlay {
 
     .iac-member-content .panel {
         height: 500px;
+    }
+
+    .iac-events-news .carousel-inner .item {
+        height: auto;
+        min-height: 0;
+    }
+
+    .iac-events-news .carousel-inner .item img {
+        width: 100%;
     }
 }
 
