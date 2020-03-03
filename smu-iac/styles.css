@@ -151,6 +151,10 @@ p.lead a {
     color: hsla(0, 0%, 15%, 1);
 }
 
+h3.title {
+    margin: 0;
+}
+
 .description {
     padding-top: 0px;
     font-size: 14px;
@@ -159,6 +163,16 @@ p.lead a {
     margin-bottom: 0px;
     padding-bottom: 0px;
     color: hsla(0, 0%, 55%, 1);
+}
+
+.description .news-date {
+    margin: 5px 0 0;
+    display: block;
+}
+
+.description p {
+    color: #000;
+    margin-top: 15px;
 }
 
 .inner-page-content {
