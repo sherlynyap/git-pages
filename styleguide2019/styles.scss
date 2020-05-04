@@ -9,6 +9,11 @@
 @import '_link';
 @import '_vendor';
 
+html {
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+}
+
 body {
     margin: 0;
     padding: 0;

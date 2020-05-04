@@ -10,40 +10,42 @@ h1, h2, h3, h4, h5, h6,
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-heading;
+    text-transform: uppercase;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $font-family-body;
+    text-transform: uppercase;
 }
 
 h1, .h1 {
     font-size: $font-size-h1;
-    line-height: $baseline * 3;
+    line-height: $line-height-base;
 }
 
 h2, .h2 {
     font-size: $font-size-h2;
-    line-height: $baseline * 2.5;
+    line-height: $line-height-base;
 }
 
 h3, .h3 {
     font-size: $font-size-h3;
-    line-height: $baseline * 2;
+    line-height: $line-height-base;
 }
 
 h4, .h4 {
     font-size: $font-size-h4;
-    line-height: $baseline * 1.5;
+    line-height: $line-height-base;
 }
 
 h5, .h5 {
     font-size: $font-size-h5;
-    line-height: $baseline * 1;
+    line-height: $line-height-base;
 }
 
 h6, .h6 {
     font-size: $font-size-h6;
-    line-height: $baseline * 0.75;
+    line-height: $line-height-base;
 }
 
 
@@ -60,8 +62,8 @@ span {
 }
 
 p {
-    line-height: $font-size-base*$line-height-base;
-    margin: $space-xs 0 $space-md 0;
+    line-height: $line-height-paragraph;
+    margin: $space-md 0 $space-md 0;
 }
 
 b,

@@ -74,8 +74,8 @@ a {
         }
 
         &:focus {
-            color: $smu-silver-dark;
-            border-bottom-color: $smu-silver-dark;
+            color: $black-lighter;
+            border-bottom-color: $black-lighter;
         }
     }
 
@@ -257,14 +257,14 @@ a {
 }
 
 %link-cta-hover {
-    border-color: $smu-silver-light !important;
+    border-color: $black-lightest !important;
     background: $white !important;
 }
 
 %link-cta-focus {
     @include box-shadow($shadow-none);
-    border-color: $white-light !important;
-    background: $white-light !important;
+    border-color: $white !important;
+    background: $white !important;
 }
 
 
