@@ -12021,6 +12021,7 @@ a.cta {
 
 a.cta.border {
     background: transparent !important
+    border-color: #8A704C;
 }
 
 a.cta.inverse:active,
