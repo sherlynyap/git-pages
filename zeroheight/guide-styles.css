@@ -1,5 +1,14 @@
-a {
-	color: #8A704C !important;
-	font-weight: bold !important;
-	text-decoration: underline !important;
+#texteditor-container a,
+#texteditor-container a b,
+#texteditor-container a strong,
+.details-box a,
+.details-box a b,
+.details-box a strong,
+.notes-editor a,
+.notes-editor a b,
+.notes-editor a strong,
+.editor-link .link {
+    color: #8A704C !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
