@@ -21,5 +21,10 @@ div {
 	padding: 1em;
 }
 
+li {
+	margin: 0;
+	padding: 5px 0;
+}
+
 ol li {list-style-type: decimal;}
 ul li {list-style-type: initial;}
