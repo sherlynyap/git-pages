@@ -12413,11 +12413,11 @@ table.borderless tr {
     border: 0 !important
 }
 
-/*ol:not(.toolbar-menu):not(.nav-tabs) li,
+ol:not(.toolbar-menu):not(.nav-tabs) li,
 ul:not(.toolbar-menu):not(.nav-tabs) li {
     margin-left: 45px;
-    padding: 10px 0
-}*/
+    padding: 10px;
+}
 
 iframe {
     border-radius: .25rem;
