@@ -21,6 +21,10 @@ div {
 	padding: 1em;
 }
 
-ol li, ul li {
-	list-style: initial !important;
+ol li {
+	list-style: upper-roman !important;
+}
+
+ul li {
+	list-style: disc !important;
 }
