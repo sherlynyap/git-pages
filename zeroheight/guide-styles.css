@@ -21,6 +21,6 @@ div {
 	padding: 1em;
 }
 
-ol, ul {
-	list-style-type: initial;
+ol li, ul li {
+	list-style: initial !important;
 }
