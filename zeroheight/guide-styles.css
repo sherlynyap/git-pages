@@ -25,3 +25,7 @@ body {
 ol li {list-style-type: decimal;}
 ul li {list-style-type: initial;}
 
+
+.list-group {
+	margin-left: 0;
+}
