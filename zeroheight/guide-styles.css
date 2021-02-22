@@ -13,6 +13,6 @@
     text-decoration: underline !important;
 }
 
-* {
+*, td, th {
 	font-size: 16px;
 }
