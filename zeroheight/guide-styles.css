@@ -21,10 +21,5 @@ div {
 	padding: 1em;
 }
 
-ol li {
-	list-style: upper-roman !important;
-}
-
-ul li {
-	list-style: disc !important;
-}
+ol li {list-style-type: decimal;}
+ul li {list-style-type: initial;}
