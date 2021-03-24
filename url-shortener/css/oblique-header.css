@@ -1,0 +1,114 @@
+#header-two {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #fff !important;
+    position: relative !important;
+    overflow: visible;
+}
+
+.obg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+}
+
+.obg.obg-white {
+    /* initial with js intervention */
+    width: 24%;
+}
+
+.obg.obg-white {
+    background-color: white;
+    left: 0;
+}
+
+.obg.obg-site {
+    /* initial with js intervention */
+    width: 76%;
+}
+
+.obg.obg-site {
+    background: #102b72 !important;
+    right: 0;
+}
+
+.navbar-header-container {
+    position: relative;
+    height: auto;
+}
+
+.navbar-header-container .navbar-header {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.site-branding {
+    white-space: nowrap;
+}
+
+element {}
+
+.ob-smu-logo,
+.ob-oblique {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+
+.ob-smu-logo {
+    background: #ffffff;
+    padding-right: 15px;
+}
+
+.ob-smu-logo a {
+    padding: 10px 0;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.ob-smu-logo,
+.ob-oblique {
+    display: inline-block;
+}
+
+.ob-oblique img {
+    width: 30px;
+    height: 80px;
+}
+
+@media (min-width: 768px) and  (min-width: 992px) {
+    .desktop {
+        display: block !important;
+    } 
+
+    .tablet, 
+    .mobile {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet {
+        display: block !important;
+    } 
+
+    .desktop, 
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile {
+        display: block !important;
+    }
+
+    .desktop, 
+    .tablet {
+        display: none;
+    }
+}
+
