@@ -1,3 +1,7 @@
+header {
+    min-width: 320px;
+}
+
 #header-two {
     padding-top: 0;
     padding-bottom: 0;
@@ -15,7 +19,7 @@
 
 .obg.obg-white {
     /* initial with js intervention */
-    width: 24%;
+    width: 25%;
 }
 
 .obg.obg-white {
@@ -25,7 +29,7 @@
 
 .obg.obg-site {
     /* initial with js intervention */
-    width: 76%;
+    width: 75%;
 }
 
 .obg.obg-site {
@@ -78,37 +82,66 @@ element {}
     height: 80px;
 }
 
-@media (min-width: 768px) and  (min-width: 992px) {
+@media (min-width: 992px) {
     .desktop {
         display: block !important;
-    } 
+    }
 
-    .tablet, 
+    .tablet,
     .mobile {
         display: none;
     }
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
     .tablet {
         display: block !important;
-    } 
+    }
 
-    .desktop, 
+    .desktop,
     .mobile {
         display: none;
     }
+
+    .obg.obg-white {
+	    /* initial with js intervention */
+	    width: 15%;
+	}
+
+
+	.obg.obg-site {
+	    /* initial with js intervention */
+	    width: 85%;
+	}
 }
 
 @media (max-width: 767px) {
+    .obg {
+        height: 64px;
+    }
+
+    .obg.obg-white {
+	    /* initial with js intervention */
+	    width: 15%;
+	}
+
+
+	.obg.obg-site {
+	    /* initial with js intervention */
+	    width: 85%;
+	}
+
+    .ob-oblique img {
+        width: 24px;
+        height: 64px;
+    }
+
     .mobile {
         display: block !important;
     }
 
-    .desktop, 
+    .desktop,
     .tablet {
         display: none;
     }
 }
-
