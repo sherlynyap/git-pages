@@ -145,9 +145,9 @@ footer {
     width: 100%;
     background: #1c1c1c;
     padding: 30px 15px 30px;
-    clear: both;
+/*    clear: both;
     position: absolute;
-    bottom: 0;
+    bottom: 0;*/
 }
 
 footer p {
