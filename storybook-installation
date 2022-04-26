@@ -1,2 +1,1 @@
-# Add Storybook:
-npx sb init
+<FeatureSnippets paths={[ 'get-started/installation-command-section/angular.mdx', 'get-started/installation-command-section/ember.mdx', 'get-started/installation-command-section/html.mdx', 'get-started/installation-command-section/preact.mdx', 'get-started/installation-command-section/react.mdx', 'get-started/installation-command-section/svelte.mdx', 'get-started/installation-command-section/vue.mdx', 'get-started/installation-command-section/web-components.mdx', ]} />
