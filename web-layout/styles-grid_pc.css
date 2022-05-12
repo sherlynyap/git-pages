@@ -8,7 +8,7 @@ header {
     display: grid;
     gap: 2rem;
     align-items: center;
-    grid-template-columns: 10% 84% 6%;
+    grid-template-columns: 7% 79% 14%;
     /*Need to adjust midddle value*/
 }
 
