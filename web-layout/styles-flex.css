@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.logo img {
+    width: 3rem;
+    margin-right: 2em
+}
+
+h1.site-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #151c55;
+}
+
+h1,
+ul {
+    margin: 0;
+}
+
+h1.site-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #151c55;
+}
+
+nav.main-menu {
+    text-align: right;
+}
+
+nav.main-menu li {
+    list-style-type: none;
+}
+
+main div {
+    background: #151C55;
+    border-top: 4px solid #CCC;
+}
+
+main div>div {
+    width: 80%;
+    height: 500px;
+    background: lightgrey;
+    margin: 2rem auto;
+}
