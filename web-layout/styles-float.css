@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+h1,
+ul {
+    margin: 0;
+}
+
 header {
     padding: 2rem;
     display: flow-root;
@@ -12,11 +17,6 @@ a.logo img {
     width: 3rem;
     float: left;
     margin-right: 2em
-}
-
-h1,
-ul {
-    margin: 0;
 }
 
 h1.site-name {
