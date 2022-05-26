@@ -1,0 +1,56 @@
+<body>
+    <div class="bg-paper">
+        <div class="bg-border">
+            <div class="bg-dash">
+                <div class="bg-border-inner">
+                    <div class="bg-map">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bg-paper {
+        background: url('bg-paper.jpg') #ead0ad 50% 50% no-repeat;
+        background-size: cover;
+        width: calc(100% - 2rem);
+        height: calc(100% - 2rem);
+        padding: 1rem;
+    }
+    
+    .bg-border,
+    .bg-border-inner {
+        background-color: transparent;
+        border: 1px solid #634228;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .bg-border-inner {
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+    }
+    
+    .bg-dash {
+        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='6' stroke-dasharray='36%2c 36' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        padding: 3px;
+    }
+    
+    .bg-map {
+        background: url('map-base.png') transparent 50% 50% no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+</style>
