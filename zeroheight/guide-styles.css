@@ -63,7 +63,7 @@ ul li {
     list-style: none !important;
 }
 
-blockquote {
+#texteditor-container blockquote {
     border: 0 !important;
     background: rgba(255, 50, 50, 0.25) !important;
     padding: 1rem !important;
