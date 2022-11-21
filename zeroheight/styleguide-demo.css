@@ -47,6 +47,709 @@
 }
 
 
+/*Borders*/
+
+.border {
+    border: 1px solid #dee2e6 !important
+}
+
+.border-top {
+    border-top: 1px solid #dee2e6 !important
+}
+
+.border-right {
+    border-right: 1px solid #dee2e6 !important
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important
+}
+
+.border-left {
+    border-left: 1px solid #dee2e6 !important
+}
+
+.border-0 {
+    border: 0 !important
+}
+
+.border-top-0 {
+    border-top: 0 !important
+}
+
+.border-right-0 {
+    border-right: 0 !important
+}
+
+.border-bottom-0 {
+    border-bottom: 0 !important
+}
+
+.border-left-0 {
+    border-left: 0 !important
+}
+
+.border-primary {
+    border-color: #151c55 !important
+}
+
+.border-secondary {
+    border-color: #8a704c !important
+}
+
+.border-light {
+    border-color: #f8f9fa !important
+}
+
+.border-dark {
+    border-color: #343a40 !important
+}
+
+.border-bottom.thick,
+.border-left.thick,
+.border-right.thick,
+.border-top.thick,
+.border.thick {
+    border-width: 4px !important
+}
+
+.border-bottom.thicker,
+.border-left.thicker,
+.border-right.thicker,
+.border-top.thicker,
+.border.thicker {
+    border-width: 8px !important
+}
+
+.border-black {
+    border-color: #000 !important
+}
+
+.border-black.light {
+    border-color: #404040 !important
+}
+
+.border-black.lighter {
+    border-color: #bfbfbf !important
+}
+
+.border-white {
+    border-color: #fff !important
+}
+
+.border-silver {
+    border-color: #ccc !important
+}
+
+.border-dotted {
+    border-style: dotted
+}
+
+.border-dashed {
+    border-style: dashed
+}
+
+.border-double {
+    border-style: double
+}
+
+.border-lkcsb {
+    border-color: #005c96 !important
+}
+
+.border-lkcsb.light {
+    border-color: #007bc9 !important
+}
+
+.border-lkcsb.lighter {
+    border-color: #009bfc !important
+}
+
+.border-lkcsb.dark {
+    border-color: #003d63 !important
+}
+
+.border-lkcsb.darker {
+    border-color: #001d30 !important
+}
+
+.border-sis {
+    border-color: #c69200 !important
+}
+
+.border-sis.light {
+    border-color: #f9b800 !important
+}
+
+.border-sis.lighter {
+    border-color: #ffc82d !important
+}
+
+.border-sis.dark {
+    border-color: #936c00 !important
+}
+
+.border-sis.darker {
+    border-color: #604700 !important
+}
+
+.border-soa {
+    border-color: #9e0040 !important
+}
+
+.border-soa.light {
+    border-color: #d10055 !important
+}
+
+.border-soa.lighter {
+    border-color: #ff056a !important
+}
+
+.border-soa.dark {
+    border-color: #6b002b !important
+}
+
+.border-soa.darker {
+    border-color: #380017 !important
+}
+
+.border-soe {
+    border-color: #006685 !important
+}
+
+.border-soe.light {
+    border-color: #008db8 !important
+}
+
+.border-soe.lighter {
+    border-color: #00b4eb !important
+}
+
+.border-soe.dark {
+    border-color: #00475c !important
+}
+
+.border-soe.darker {
+    border-color: #002b39 !important
+}
+
+.border-sol {
+    border-color: #306 !important
+}
+
+.border-sol.light {
+    border-color: #4d0099 !important
+}
+
+.border-sol.lighter {
+    border-color: #60c !important
+}
+
+.border-sol.dark {
+    border-color: #1f003d !important
+}
+
+.border-sol.darker {
+    border-color: #0d001a !important
+}
+
+.border-soss {
+    border-color: #063 !important
+}
+
+.border-soss.light {
+    border-color: #00994d !important
+}
+
+.border-soss.lighter {
+    border-color: #0c6 !important
+}
+
+.border-soss.dark {
+    border-color: #003d1f !important
+}
+
+.border-soss.darker {
+    border-color: #001a0d !important
+}
+
+.border-blue {
+    border-color: #151c55 !important
+}
+
+.border-blue.light {
+    border-color: #1f297e !important
+}
+
+.border-blue.lighter {
+    border-color: #2937a7 !important
+}
+
+.border-blue.dark {
+    border-color: #0b0f2c !important
+}
+
+.border-blue.darker {
+    border-color: #010103 !important
+}
+
+.bg-gold {
+    background: #8a704c !important
+}
+
+.bg-gold.light {
+    background: #a88a61 !important
+}
+
+.bg-gold.lighter {
+    background: #baa382 !important
+}
+
+.bg-gold.dark {
+    background: #69553a
+}
+
+.bg-gold.darker {
+    background: #483b28
+}
+
+.border-gold {
+    border-color: #8a704c !important
+}
+
+.border-gold.light {
+    border-color: #a88a61 !important
+}
+
+.border-gold.lighter {
+    border-color: #baa382 !important
+}
+
+.border-gold.dark {
+    border-color: #69553a !important
+}
+
+.border-gold.darker {
+    border-color: #483b28 !important
+}
+
+.border-success {
+    border-color: #3eb33e !important
+}
+
+.border-success.light {
+    border-color: #5dc75d !important
+}
+
+.border-success.lighter {
+    border-color: #83d483 !important
+}
+
+.border-success.dark {
+    border-color: #318d31 !important
+}
+
+.border-success.darker {
+    border-color: #246724 !important
+}
+
+.border-info {
+    border-color: #3dabcc !important
+}
+
+.border-info.light {
+    border-color: #65bcd7 !important
+}
+
+.border-info.lighter {
+    border-color: #8ecee1 !important
+}
+
+.border-info.dark {
+    border-color: #2d8da9 !important
+}
+
+.border-info.darker {
+    border-color: #226b81 !important
+}
+
+.border-warning {
+    border-color: #e6a422 !important
+}
+
+.border-warning.light {
+    border-color: #ebb750 !important
+}
+
+.border-warning.lighter {
+    border-color: #f0ca7e !important
+}
+
+.border-warning.dark {
+    border-color: #bf8616 !important
+}
+
+.border-warning.darker {
+    border-color: #926610 !important
+}
+
+.border-danger {
+    border-color: #d93c36 !important
+}
+
+.border-danger.light {
+    border-color: #e16661 !important
+}
+
+.border-danger.lighter {
+    border-color: #e98f8c !important
+}
+
+.border-danger.dark {
+    border-color: #b92923 !important
+}
+
+.border-danger.darker {
+    border-color: #8e1f1b !important
+}
+
+
+.rounded-sm {
+    border-radius: .2rem !important
+}
+
+.rounded {
+    border-radius: .25rem !important
+}
+
+.rounded-top {
+    border-top-left-radius: .25rem !important
+}
+
+.rounded-right,
+.rounded-top {
+    border-top-right-radius: .25rem !important
+}
+
+.rounded-bottom,
+.rounded-right {
+    border-bottom-right-radius: .25rem !important
+}
+
+.rounded-bottom,
+.rounded-left {
+    border-bottom-left-radius: .25rem !important
+}
+
+.rounded-left {
+    border-top-left-radius: .25rem !important
+}
+
+.rounded-lg {
+    border-radius: .3rem !important
+}
+
+.rounded-circle {
+    border-radius: 50% !important
+}
+
+.rounded-pill {
+    border-radius: 50rem !important
+}
+
+.rounded-0 {
+    border-radius: 0 !important
+}
+
+/*Backgrounds*/
+
+
+.background {
+    background: 1px solid #dee2e6 !important
+}
+
+
+.background-black {
+    background-color: #000 !important
+}
+
+.background-black.light {
+    background-color: #404040 !important
+}
+
+.background-black.lighter {
+    background-color: #bfbfbf !important
+}
+
+.background-white {
+    background-color: #fff !important
+}
+
+.background-silver {
+    background-color: #ccc !important
+}
+
+.background-lkcsb {
+    background-color: #005c96 !important
+}
+
+.background-lkcsb.light {
+    background-color: #007bc9 !important
+}
+
+.background-lkcsb.lighter {
+    background-color: #009bfc !important
+}
+
+.background-lkcsb.dark {
+    background-color: #003d63 !important
+}
+
+.background-lkcsb.darker {
+    background-color: #001d30 !important
+}
+
+.background-sis {
+    background-color: #c69200 !important
+}
+
+.background-sis.light {
+    background-color: #f9b800 !important
+}
+
+.background-sis.lighter {
+    background-color: #ffc82d !important
+}
+
+.background-sis.dark {
+    background-color: #936c00 !important
+}
+
+.background-sis.darker {
+    background-color: #604700 !important
+}
+
+.background-soa {
+    background-color: #9e0040 !important
+}
+
+.background-soa.light {
+    background-color: #d10055 !important
+}
+
+.background-soa.lighter {
+    background-color: #ff056a !important
+}
+
+.background-soa.dark {
+    background-color: #6b002b !important
+}
+
+.background-soa.darker {
+    background-color: #380017 !important
+}
+
+.background-soe {
+    background-color: #006685 !important
+}
+
+.background-soe.light {
+    background-color: #008db8 !important
+}
+
+.background-soe.lighter {
+    background-color: #00b4eb !important
+}
+
+.background-soe.dark {
+    background-color: #00475c !important
+}
+
+.background-soe.darker {
+    background-color: #002b39 !important
+}
+
+.background-sol {
+    background-color: #306 !important
+}
+
+.background-sol.light {
+    background-color: #4d0099 !important
+}
+
+.background-sol.lighter {
+    background-color: #60c !important
+}
+
+.background-sol.dark {
+    background-color: #1f003d !important
+}
+
+.background-sol.darker {
+    background-color: #0d001a !important
+}
+
+.background-soss {
+    background-color: #063 !important
+}
+
+.background-soss.light {
+    background-color: #00994d !important
+}
+
+.background-soss.lighter {
+    background-color: #0c6 !important
+}
+
+.background-soss.dark {
+    background-color: #003d1f !important
+}
+
+.background-soss.darker {
+    background-color: #001a0d !important
+}
+
+.background-blue {
+    background-color: #151c55 !important
+}
+
+.background-blue.light {
+    background-color: #1f297e !important
+}
+
+.background-blue.lighter {
+    background-color: #2937a7 !important
+}
+
+.background-blue.dark {
+    background-color: #0b0f2c !important
+}
+
+.background-blue.darker {
+    background-color: #010103 !important
+}
+
+.bg-gold {
+    background: #8a704c !important
+}
+
+.bg-gold.light {
+    background: #a88a61 !important
+}
+
+.bg-gold.lighter {
+    background: #baa382 !important
+}
+
+.bg-gold.dark {
+    background: #69553a
+}
+
+.bg-gold.darker {
+    background: #483b28
+}
+
+.background-gold {
+    background-color: #8a704c !important
+}
+
+.background-gold.light {
+    background-color: #a88a61 !important
+}
+
+.background-gold.lighter {
+    background-color: #baa382 !important
+}
+
+.background-gold.dark {
+    background-color: #69553a !important
+}
+
+.background-gold.darker {
+    background-color: #483b28 !important
+}
+
+.background-success {
+    background-color: #3eb33e !important
+}
+
+.background-success.light {
+    background-color: #5dc75d !important
+}
+
+.background-success.lighter {
+    background-color: #83d483 !important
+}
+
+.background-success.dark {
+    background-color: #318d31 !important
+}
+
+.background-success.darker {
+    background-color: #246724 !important
+}
+
+.background-info {
+    background-color: #3dabcc !important
+}
+
+.background-info.light {
+    background-color: #65bcd7 !important
+}
+
+.background-info.lighter {
+    background-color: #8ecee1 !important
+}
+
+.background-info.dark {
+    background-color: #2d8da9 !important
+}
+
+.background-info.darker {
+    background-color: #226b81 !important
+}
+
+.background-warning {
+    background-color: #e6a422 !important
+}
+
+.background-warning.light {
+    background-color: #ebb750 !important
+}
+
+.background-warning.lighter {
+    background-color: #f0ca7e !important
+}
+
+.background-warning.dark {
+    background-color: #bf8616 !important
+}
+
+.background-warning.darker {
+    background-color: #926610 !important
+}
+
+.background-danger {
+    background-color: #d93c36 !important
+}
+
+.background-danger.light {
+    background-color: #e16661 !important
+}
+
+.background-danger.lighter {
+    background-color: #e98f8c !important
+}
+
+.background-danger.dark {
+    background-color: #b92923 !important
+}
+
+.background-danger.darker {
+    background-color: #8e1f1b !important
+}
+
+
 
 /* FOR DISPLAY PURPOSES */
 body {
