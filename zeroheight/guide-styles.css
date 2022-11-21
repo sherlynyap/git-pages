@@ -13,17 +13,24 @@
     text-decoration: underline !important;
 }
 
-*, td, th {
-	font-size: 16px;
+*,
+td,
+th {
+    font-size: 16px;
 }
 
 body {
-	padding: 1em;
+    padding: 1em;
 }
 
 
-ol li {list-style-type: decimal;}
-ul li {list-style-type: initial;}
+ol li {
+    list-style-type: decimal;
+}
+
+ul li {
+    list-style-type: initial;
+}
 
 
 .list-group {
@@ -46,12 +53,21 @@ ul li {list-style-type: initial;}
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
-  	margin-left: 0 !important;
+    margin-left: 0 !important;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125) !important;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
 }
 
 
 .nav-item {
-	list-style: none !important;
+    list-style: none !important;
+}
+
+blockquote {
+    border: 0;
+    background: rgba(255, 50, 50, 0.25);
+    padding: 1rem;
+    text-align: center;
+    margin-left: 0;
+    display: block;
 }

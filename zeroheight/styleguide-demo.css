@@ -1,0 +1,75 @@
+/***** COLORS  *****/
+
+/* Text */
+.text-blue {
+    color: #151C55;
+}
+
+.text-gold {
+    color: #8A704C;
+}
+
+.text-silver {
+    color: #CCC;
+}
+
+.text-lkcsb {
+    color: #005C96;
+}
+
+.text-sis {
+    color: #C69200;
+}
+
+.text-soa {
+    color: #9E0040;
+}
+
+.text-soe {
+    color: #006685;
+}
+
+.text-sol {
+    color: #330066;
+}
+
+.text-soss {
+    color: #006633;
+}
+
+
+.text-cis {
+    color: #000;
+}
+
+.text-cgrs {
+    color: #009490;
+}
+
+
+
+/* FOR DISPLAY PURPOSES */
+body {
+  padding: 1rem;
+  font-family: "open sans", sans-serif;
+}
+
+.grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 1rem;
+}
+
+
+h3, p {
+	padding: 0.5rem 1rem;
+  	margin-bottom: 0.5rem;
+}
+
+p {
+	width: 1fr;
+}
+
+p.text-white {
+	background: black;
+}
