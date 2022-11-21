@@ -54,6 +54,11 @@ body {
   font-family: "open sans", sans-serif;
 }
 
+body a {
+    color: #8a704c;
+    font-weight: 600;
+}
+
 .grid { 
   display: grid; 
   grid-template-columns: repeat(2, 50%);
