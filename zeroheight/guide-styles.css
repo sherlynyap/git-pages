@@ -75,8 +75,3 @@ ul li {
             display: block !important;
         }
         */
-
-.code-block-view--iframe-container a {
-    color: #8a704c;
-    font-weight: 600;
-}
