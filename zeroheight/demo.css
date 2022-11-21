@@ -862,8 +862,39 @@
 
 
 /* Buttons  */
-.btn-primary {
+.btn {
+    font: 1rem/1.5rem "Oswald", sans-serif;
+    font-weight: 600 !important;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all ease-in-out 0.3s;
+}
 
+.btn:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background: #8a704c;
+    border-color: #FFF;
+}
+
+.btn-primary:hover {
+    background: #69553a;
+    border-color: #FFF;
+}
+
+.btn-inverse {
+    background: transparent;
+    border-color: #FFF;
+}
+
+.btn-inverse:hover {
+    background: #69553a;
+    border-color: #FFF;
 }
 
 
