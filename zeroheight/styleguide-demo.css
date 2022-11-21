@@ -763,11 +763,18 @@ body {
     font-weight: 600;
 }
 
-.grid { 
+.grid-2 { 
   display: grid; 
   grid-template-columns: repeat(2, 50%);
   grid-column-gap: 1rem;
 }
+
+.grid-4 { 
+  display: grid; 
+  grid-template-columns: repeat(4, 25%);
+  grid-column-gap: 1rem;
+}
+
 
 
 h3, p {
