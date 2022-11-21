@@ -886,7 +886,7 @@ body {
 }
 
 .grid-4>div {
-    aspect-ratio: 1;
+    aspect-ratio: 2 / 1;
     padding: 0.5rem 1rem;
     margin-bottom: 0.5rem;
 }
