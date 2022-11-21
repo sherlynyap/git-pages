@@ -54,7 +54,8 @@ body {
   font-family: "open sans", sans-serif;
 }
 
-body a {
+.main-container a, 
+.main-container p a {
     color: #8a704c;
     font-weight: 600;
 }
