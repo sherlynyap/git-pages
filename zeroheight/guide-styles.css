@@ -1,18 +1,3 @@
-#texteditor-container a,
-#texteditor-container a b,
-#texteditor-container a strong,
-.details-box a,
-.details-box a b,
-.details-box a strong,
-.notes-editor a,
-.notes-editor a b,
-.notes-editor a strong,
-.editor-link .link {
-    color: #8A704C !important;
-    font-weight: bold !important;
-    text-decoration: underline !important;
-}
-
 *,
 td,
 th {
@@ -30,6 +15,22 @@ ol li {
 
 ul li {
     list-style-type: initial;
+}
+
+
+#texteditor-container a,
+#texteditor-container a b,
+#texteditor-container a strong,
+.details-box a,
+.details-box a b,
+.details-box a strong,
+.notes-editor a,
+.notes-editor a b,
+.notes-editor a strong,
+.editor-link .link {
+    color: #8A704C !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
 
 
@@ -63,7 +64,7 @@ ul li {
     list-style: none !important;
 }
 
-#texteditor-container blockquote {
+.content #texteditor-container .ql-editor.ui-sortable blockquote {
     border: 0 !important;
     background: rgba(255, 50, 50, 0.25) !important;
     padding: 1rem !important;
