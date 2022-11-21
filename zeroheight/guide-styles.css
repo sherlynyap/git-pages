@@ -64,7 +64,7 @@ ul li {
     list-style: none !important;
 }
 
-.content #texteditor-container .ql-editor.ui-sortable blockquote {
+#texteditor-container .ql-editor blockquote {
     border: 0 !important;
     background: rgba(255, 50, 50, 0.25) !important;
     padding: 1rem !important;
