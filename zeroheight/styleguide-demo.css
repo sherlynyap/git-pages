@@ -464,168 +464,168 @@
 /*Backgrounds*/
 
 
-.background {
+.bg {
     background: 1px solid #dee2e6 !important
 }
 
 
-.background-black {
+.bg-black {
     background-color: #000 !important
 }
 
-.background-black.light {
+.bg-black.light {
     background-color: #404040 !important
 }
 
-.background-black.lighter {
+.bg-black.lighter {
     background-color: #bfbfbf !important
 }
 
-.background-white {
+.bg-white {
     background-color: #fff !important
 }
 
-.background-silver {
+.bg-silver {
     background-color: #ccc !important
 }
 
-.background-lkcsb {
+.bg-lkcsb {
     background-color: #005c96 !important
 }
 
-.background-lkcsb.light {
+.bg-lkcsb.light {
     background-color: #007bc9 !important
 }
 
-.background-lkcsb.lighter {
+.bg-lkcsb.lighter {
     background-color: #009bfc !important
 }
 
-.background-lkcsb.dark {
+.bg-lkcsb.dark {
     background-color: #003d63 !important
 }
 
-.background-lkcsb.darker {
+.bg-lkcsb.darker {
     background-color: #001d30 !important
 }
 
-.background-sis {
+.bg-sis {
     background-color: #c69200 !important
 }
 
-.background-sis.light {
+.bg-sis.light {
     background-color: #f9b800 !important
 }
 
-.background-sis.lighter {
+.bg-sis.lighter {
     background-color: #ffc82d !important
 }
 
-.background-sis.dark {
+.bg-sis.dark {
     background-color: #936c00 !important
 }
 
-.background-sis.darker {
+.bg-sis.darker {
     background-color: #604700 !important
 }
 
-.background-soa {
+.bg-soa {
     background-color: #9e0040 !important
 }
 
-.background-soa.light {
+.bg-soa.light {
     background-color: #d10055 !important
 }
 
-.background-soa.lighter {
+.bg-soa.lighter {
     background-color: #ff056a !important
 }
 
-.background-soa.dark {
+.bg-soa.dark {
     background-color: #6b002b !important
 }
 
-.background-soa.darker {
+.bg-soa.darker {
     background-color: #380017 !important
 }
 
-.background-soe {
+.bg-soe {
     background-color: #006685 !important
 }
 
-.background-soe.light {
+.bg-soe.light {
     background-color: #008db8 !important
 }
 
-.background-soe.lighter {
+.bg-soe.lighter {
     background-color: #00b4eb !important
 }
 
-.background-soe.dark {
+.bg-soe.dark {
     background-color: #00475c !important
 }
 
-.background-soe.darker {
+.bg-soe.darker {
     background-color: #002b39 !important
 }
 
-.background-sol {
+.bg-sol {
     background-color: #306 !important
 }
 
-.background-sol.light {
+.bg-sol.light {
     background-color: #4d0099 !important
 }
 
-.background-sol.lighter {
+.bg-sol.lighter {
     background-color: #60c !important
 }
 
-.background-sol.dark {
+.bg-sol.dark {
     background-color: #1f003d !important
 }
 
-.background-sol.darker {
+.bg-sol.darker {
     background-color: #0d001a !important
 }
 
-.background-soss {
+.bg-soss {
     background-color: #063 !important
 }
 
-.background-soss.light {
+.bg-soss.light {
     background-color: #00994d !important
 }
 
-.background-soss.lighter {
+.bg-soss.lighter {
     background-color: #0c6 !important
 }
 
-.background-soss.dark {
+.bg-soss.dark {
     background-color: #003d1f !important
 }
 
-.background-soss.darker {
+.bg-soss.darker {
     background-color: #001a0d !important
 }
 
-.background-blue {
+.bg-blue {
     background-color: #151c55 !important
 }
 
-.background-blue.light {
+.bg-blue.light {
     background-color: #1f297e !important
 }
 
-.background-blue.lighter {
+.bg-blue.lighter {
     background-color: #2937a7 !important
 }
 
-.background-blue.dark {
+.bg-blue.dark {
     background-color: #0b0f2c !important
 }
 
-.background-blue.darker {
+.bg-blue.darker {
     background-color: #010103 !important
 }
 
@@ -649,103 +649,103 @@
     background: #483b28
 }
 
-.background-gold {
+.bg-gold {
     background-color: #8a704c !important
 }
 
-.background-gold.light {
+.bg-gold.light {
     background-color: #a88a61 !important
 }
 
-.background-gold.lighter {
+.bg-gold.lighter {
     background-color: #baa382 !important
 }
 
-.background-gold.dark {
+.bg-gold.dark {
     background-color: #69553a !important
 }
 
-.background-gold.darker {
+.bg-gold.darker {
     background-color: #483b28 !important
 }
 
-.background-success {
+.bg-success {
     background-color: #3eb33e !important
 }
 
-.background-success.light {
+.bg-success.light {
     background-color: #5dc75d !important
 }
 
-.background-success.lighter {
+.bg-success.lighter {
     background-color: #83d483 !important
 }
 
-.background-success.dark {
+.bg-success.dark {
     background-color: #318d31 !important
 }
 
-.background-success.darker {
+.bg-success.darker {
     background-color: #246724 !important
 }
 
-.background-info {
+.bg-info {
     background-color: #3dabcc !important
 }
 
-.background-info.light {
+.bg-info.light {
     background-color: #65bcd7 !important
 }
 
-.background-info.lighter {
+.bg-info.lighter {
     background-color: #8ecee1 !important
 }
 
-.background-info.dark {
+.bg-info.dark {
     background-color: #2d8da9 !important
 }
 
-.background-info.darker {
+.bg-info.darker {
     background-color: #226b81 !important
 }
 
-.background-warning {
+.bg-warning {
     background-color: #e6a422 !important
 }
 
-.background-warning.light {
+.bg-warning.light {
     background-color: #ebb750 !important
 }
 
-.background-warning.lighter {
+.bg-warning.lighter {
     background-color: #f0ca7e !important
 }
 
-.background-warning.dark {
+.bg-warning.dark {
     background-color: #bf8616 !important
 }
 
-.background-warning.darker {
+.bg-warning.darker {
     background-color: #926610 !important
 }
 
-.background-danger {
+.bg-danger {
     background-color: #d93c36 !important
 }
 
-.background-danger.light {
+.bg-danger.light {
     background-color: #e16661 !important
 }
 
-.background-danger.lighter {
+.bg-danger.lighter {
     background-color: #e98f8c !important
 }
 
-.background-danger.dark {
+.bg-danger.dark {
     background-color: #b92923 !important
 }
 
-.background-danger.darker {
+.bg-danger.darker {
     background-color: #8e1f1b !important
 }
 
