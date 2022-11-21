@@ -64,11 +64,19 @@ ul li {
     list-style: none !important;
 }
 
-#texteditor-container .ql-editor blockquote {
-    border: 0 !important;
-    background: rgba(255, 50, 50, 0.25) !important;
-    padding: 1rem !important;
-    text-align: center !important;
-    margin-left: 0 !important;
-    display: block !important;
+/* Blockquote custom CSS not working */
+        /*
+        #texteditor-container .ql-editor blockquote {
+            border: 0 !important;
+            background: rgba(255, 50, 50, 0.25) !important;
+            padding: 1rem !important;
+            text-align: center !important;
+            margin-left: 0 !important;
+            display: block !important;
+        }
+        */
+
+.code-block-view--iframe-container a {
+    color: #8a704c;
+    font-weight: 600;
 }
