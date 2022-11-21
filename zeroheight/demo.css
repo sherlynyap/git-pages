@@ -861,6 +861,12 @@
 
 
 
+/* Buttons  */
+.btn-primary {
+
+}
+
+
 /* FOR DISPLAY PURPOSES */
 body {
     padding: 1rem;
@@ -885,10 +891,14 @@ body {
     grid-column-gap: 1rem;
 }
 
-.grid-4>div {
-    aspect-ratio: 2 / 1;
+.grid-4>* {
     padding: 0.5rem 1rem;
     margin-bottom: 0.5rem;
+}
+
+
+.grid-4>div {
+    aspect-ratio: 2 / 1;
 }
 
 
