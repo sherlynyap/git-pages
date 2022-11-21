@@ -917,7 +917,8 @@ fieldset:disabled a.btn {
     border-color: #151C55;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn.inverse:hover {
     color: #FFF;
     background-color: #0d1236;
     border-color: #0b0f2c;
@@ -992,6 +993,13 @@ fieldset:disabled a.btn {
     background-color: transparent;
     color: #FFF;
 }
+
+.btn.inverse {
+    border-color: #FFF;
+    background-color: transparent;
+    color: #FFF;
+}
+
 
 .btn-success {
     color: #FFF;
